@@ -30,11 +30,22 @@
         <OutputPath>..\..\..\1.2\Assemblies\</OutputPath>
       </PropertyGroup>
       <ItemGroup>
-        <PackageReference Include="Krafs.Rimworld.Ref" Version="1.2.*" />
+        <PackageReference Include="Krafs.Rimworld.Ref" Version="1.2.*" GeneratePathProperty="true" />
       </ItemGroup>
     </When>
   </Choose>
   <ItemGroup>
     <PackageReference Include="Lib.Harmony" Version="2.0.2" ExcludeAssets="runtime" />
   </ItemGroup>
+  <!-- Based off tip from https://damsteen.nl/blog/2020/05/29/temporary-overriding-packagereference-bin-path -->
+  <Target Name="OverrideAssemblyCSharpReference" AfterTargets="ResolveLockFileReferences" Condition=" '$(Configuration)' == 'RW1.2' ">
+    <ItemGroup>
+      <!-- Must use Remove/Include instead of Update, since latter doesn't work in targets: https://github.com/dotnet/msbuild/issues/889 -->
+      <Reference Remove="$(PkgKrafs_Rimworld_Ref)\ref\net472\Assembly-CSharp.dll" />
+      <Reference Include="$(PkgKrafs_Rimworld_Ref)\ref\net472\Assembly-CSharp.dll">
+        <HintPath>..\..\Dependencies\Assembly-CSharp_RW1_2_public_comps_field.dll</HintPath>
+        <Private>false</Private>
+      </Reference>
+    </ItemGroup>
+  </Target>
 </Project>
