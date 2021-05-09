@@ -3,8 +3,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/jecrell/JecsTools/releases/">
-    <img src="https://img.shields.io/badge/dynamic/xml?color=4BC51D&label=version&query=%2FManifest%2Fversion&url=https%3A%2F%2Fraw.githubusercontent.com%2Fjecrell%2FJecsTools%2Fmaster%2FAbout%2FManifest.xml&style=flat" alt="Version" />
+  <a href="https://github.com/lbmaian/JecsTools/archive/steam.zip">
+    <img src="https://img.shields.io/badge/dynamic/xml?color=4BC51D&label=version&query=%2FManifest%2Fversion&url=https%3A%2F%2Fraw.githubusercontent.com%2Flbmaian%2FJecsTools%2Fsteam%2FAbout%2FManifest.xml&style=flat" alt="Version" />
   </a>
   <a href="https://github.com/roxxploxx/RimWorldModGuide/wiki">
     <img src="https://img.shields.io/badge/documentation-Wiki-4BC51D.svg?style=flat" alt="Documentation" />

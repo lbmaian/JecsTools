@@ -4,6 +4,6 @@
   <version>1.1.2.3</version>
   <dependencies />
   <incompatibleWith />
-  <manifestUri>https://raw.githubusercontent.com/jecrell/JecsTools/master/About/Manifest.xml</manifestUri>
-  <downloadUri>https://github.com/jecrell/JecsTools/releases</downloadUri>
+  <manifestUri>https://raw.githubusercontent.com/lbmaian/JecsTools/steam/About/Manifest.xml</manifestUri>
+  <downloadUri>https://github.com/lbmaian/JecsTools/tree/steam</downloadUri>
 </Manifest>

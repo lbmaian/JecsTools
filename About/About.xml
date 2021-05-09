@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <packageId>jecrell.jecstools</packageId>
-  <name>JecsTools</name>
+  <name>JecsTools (Unofficial)</name>
   <author>jecrell and contributors</author>
   <url>https://discord.gg/AaVFA7V</url>
   <supportedVersions>
@@ -17,7 +17,20 @@
       <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
     </li>
   </modDependencies>
-  <description>1.1.2.3 (05-09-2021)
+  <description>
+IMPORTANT: You MUST UNSUBSCRIBE from the official version of JecsTools - unfortunately, their subscriptions are mutually exclusive. You will get a warning about duplicate packageId if you are subscribed to both versions (packageId is not changed for mod compatibility reasons).
+
+This is an unofficial version of JecsTools with performance improvements, and misc fixes/cleanup/improvements, including explicit RimWorld 1.2 support. I will not guarantee active support of this, and this version may be taken down upon request by Jecrell (if/when he returns).
+
+Detailed changelog since the official version: https://github.com/jecrell/JecsTools/pull/15
+Full version changelog: https://github.com/lbmaian/JecsTools/blob/master/About/Changelog.txt
+
+The official (and as of 05-09-2021, outdated) version of JecsTools is at:
+Steam: https://steamcommunity.com/sharedfiles/filedetails/?id=932008009
+GitHub: https://github.com/jecrell/JecsTools
+
+
+1.1.2.3 (05-09-2021)
 
 Adds modding components to RimWorld: spell casting, weapon slots, oversized weapons, and more!
 
